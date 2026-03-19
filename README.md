@@ -8,6 +8,7 @@
 | :--- | :--- | :--- |
 | [📄 copy_frontend.py](copy_frontend.py) | **前端资源拷贝工具**<br>将指定目录下的前端资源（忽略 `node_modules`）拷贝并合并到目标目录，带进度条显示。 | 用于将构建好的前端资源发布到指定位置，或在不同项目间同步代码。 |
 | [📄 delete_dirs.py](delete_dirs.py) | **批量目录删除工具**<br>递归查找并删除指定名称的目录（默认 `node_modules`），支持处理 Windows 权限问题。 | 快速清理项目中所有的 `node_modules` 依赖，以便重新安装或释放磁盘空间。 |
+| [📄 use_local_ollama.py](use_local_ollama.py) | **本地 Ollama 模型查询工具**<br>通过 HTTP API 调用本地 Ollama 服务，支持一次性输出和流式输出两种模式。 | 快速测试本地 Ollama 模型，或集成到其他脚本中进行 AI 辅助开发。 |
 
 ## 🚀 使用说明
 
